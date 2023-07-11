@@ -7,18 +7,20 @@
 }
 
 .Menu {
-    margin-top: 50px
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #09579a;
 }
 
 .Menu ul {
     display: flex;
-    background-color: #09579a;
 }
 
 .Menu ul li {
     list-style: none;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 0px 25px;
 }
 
 li a {
@@ -27,4 +29,13 @@ li a {
     font-size: 22px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500
+}
+
+.avataImg {
+    width: 40px;
+    height: 40px;
+    background-image: url("../access/img/shikamaru.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin: 10px 25px
 }

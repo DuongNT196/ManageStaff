@@ -96,6 +96,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\access\img\shikamaru.jpg" />
     <Content Include="admin.aspx" />
     <Content Include="admin\AdminLoadControl.ascx" />
     <Content Include="admin\css\header.css" />

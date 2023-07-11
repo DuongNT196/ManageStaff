@@ -46,7 +46,7 @@ Public Class staffsLoadControl
         Dim Sql As String = "select idStaff, firstName, lastName, age, sex, r.name as rank, di.name as division
                     from employee as em LEFT JOIN rank as r on em.idRank = r.idRank
 					LEFT JOIN division as di on em.idDivision = di.idDivision
-                    where firstName LIKE '%' + @Name + '%'"
+                    where firstName LIKE '%' + @Name + '%' OR lastName LIKE '%' + @LastName + '%'"
 
         Dim connectStr As New SQLDatabase()
         Dim connect = New SqlConnection(connectStr.getConnection())
@@ -54,6 +54,7 @@ Public Class staffsLoadControl
         connect.Open()
         adapter.SelectCommand = New SqlCommand(Sql, connect)
         adapter.SelectCommand.Parameters.AddWithValue("@Name", TextBoxSearch.Text)
+        adapter.SelectCommand.Parameters.AddWithValue("@LastName", TextBoxSearch.Text)
         Dim dt As New DataTable()
 
         adapter.Fill(dt)

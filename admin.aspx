@@ -13,20 +13,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="header">
-            <div class="logo">
-                Đây là vị trí cho logo
-            </div>
-            <div class="accountMenu">
-                Đây là vị trí cho thông tin tài khoản
-            </div>
-        </div>
-
         <div class="Menu">
-            <ul>
-                <li> <a href="admin.aspx" title="Home">Home</a> </li>
-                <li> <a href="admin.aspx?modul=Staffs" title="Staffs">Staffs</a> </li>
-            </ul>
+            <div>
+                <ul>
+                    <li> <a href="admin.aspx" title="Home">Home</a> </li>
+                    <li> <a href="admin.aspx?modul=Staffs" title="Staffs">Staffs</a> </li>
+                </ul>
+            </div>
+            <div class="avataImg"></div>
         </div>
         <uc1:AdminLoadControl runat="server" id="AdminLoadControl" />
     </form>
