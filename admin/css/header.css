@@ -1,0 +1,30 @@
+﻿body {
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Menu {
+    margin-top: 50px
+}
+
+.Menu ul {
+    display: flex;
+    background-color: #09579a;
+}
+
+.Menu ul li {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500
+}

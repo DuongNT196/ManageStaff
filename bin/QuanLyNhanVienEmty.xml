@@ -1,0 +1,284 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QuanLyNhanVienEmty
+</name>
+</assembly>
+<members>
+<member name="T:QuanLyNhanVienEmty.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:QuanLyNhanVienEmty.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:QuanLyNhanVienEmty.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:QuanLyNhanVienEmty.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:QuanLyNhanVienEmty.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:QuanLyNhanVienEmty.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:QuanLyNhanVienEmty.admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.admin._AdminLoadControl">
+<summary>
+AdminLoadControl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.adminLoadControl._PlaceHolder1">
+<summary>
+PlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._txtFirstname">
+<summary>
+txtFirstname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._txtLastname">
+<summary>
+txtLastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._txtBrithday">
+<summary>
+txtBrithday control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._txtAge">
+<summary>
+txtAge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._radioBoy">
+<summary>
+radioBoy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._radioGirl">
+<summary>
+radioGirl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._DropDownListRank">
+<summary>
+DropDownListRank control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._DropDownListDivision">
+<summary>
+DropDownListDivision control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.CreateStaffControl._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._txtFristname">
+<summary>
+txtFristname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._txtLastname">
+<summary>
+txtLastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._txtBirthday">
+<summary>
+txtBirthday control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._txtAge">
+<summary>
+txtAge control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._radioBoy">
+<summary>
+radioBoy control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._radioGirl">
+<summary>
+radioGirl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._txtAddress">
+<summary>
+txtAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._DropDownListRank">
+<summary>
+DropDownListRank control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._DropDownListDivision">
+<summary>
+DropDownListDivision control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._ButtonEdit">
+<summary>
+ButtonEdit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.DetailStaffControl._ButtonDelete">
+<summary>
+ButtonDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.staffsLoadControl._TextBoxSearch">
+<summary>
+TextBoxSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.staffsLoadControl._ButtonSearch">
+<summary>
+ButtonSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:QuanLyNhanVienEmty.staffsLoadControl._LiteralStaff">
+<summary>
+LiteralStaff control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
